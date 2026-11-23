@@ -3,16 +3,25 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Sanal ortamlar (Virtual Environments)
+# Sanal ortamlar
 venv/
 env/
 .venv/
 
-# Derleme ve paketleme dosyaları (PyInstaller vb.)
+# Derleme dosyaları (.exe oluştururken çıkanlar)
 build/
 dist/
 *.spec
 
-# IDE / Editör ayarları
+# Editör ve sistem dosyaları
 .vscode/
 .idea/
+Thumbs.db
+.DS_Store
+
+# PC-TOOLS uygulamasına özel geçici dosyalar
+*.log
+logs/
+temp/
+*.bak
+config.json
