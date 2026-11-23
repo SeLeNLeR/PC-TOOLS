@@ -1,0 +1,18 @@
+# Python geçici dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal ortamlar (Virtual Environments)
+venv/
+env/
+.venv/
+
+# Derleme ve paketleme dosyaları (PyInstaller vb.)
+build/
+dist/
+*.spec
+
+# IDE / Editör ayarları
+.vscode/
+.idea/
